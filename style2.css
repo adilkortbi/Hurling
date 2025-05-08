@@ -1,0 +1,41 @@
+#wrapper{ background-color: rgb(230, 250, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+p{ font-family: sans-serif;
+    font-style: normal;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(108, 175, 238);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 20px;
+
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    background-color: rgb(194, 231, 208);
+    color: black;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("hurling2.jpeg");
+}
+li{
+    display: flex;
+    flex-direction: start;
+    align-items: center; 
+}
+a{
+    color: aquamarine;
+ 
+}

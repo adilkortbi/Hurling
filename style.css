@@ -1,0 +1,40 @@
+body{
+    height: 80%;
+    display: grid;
+    grid-template-columns:250px 500px 300 100px;
+    grid-template-rows:50px 100px 1700px 120px;
+
+}
+nav{
+    background-color: rgb(194, 231, 208);
+    color: black;
+    padding-top:10px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("hurling2.jpeg");
+}
+li{
+    display: flex;
+    flex-direction: start;
+    align-items: center; 
+}
+a{
+    color: aquamarine;
+ 
+}
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(194, 231, 208) ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+main{
+    background-color:rgb(194, 231, 208);
+}
+footer{
+    background-color:rgb(194, 231, 208);
+}
