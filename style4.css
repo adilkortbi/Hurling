@@ -1,3 +1,19 @@
-body{display: flex;
-justify-content: space-around;
-background-image: url("hurling4.jpeg");}
+img{
+    opacity: 20%;
+}
+
+body {
+    /* Set the background image */
+    background-image: url('hurling4.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .transparent-box {
+    background-color: rgba(255, 255, 255); /* White background with 50% transparency */
+    color: black;
+    padding: 50px;
+    text-align: center;
+    opacity: 0.5;
+    height: 80vh;
+  }
