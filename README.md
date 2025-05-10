@@ -1,2 +1,0 @@
-# Hurling
-website for assesment
