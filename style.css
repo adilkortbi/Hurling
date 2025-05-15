@@ -7,14 +7,15 @@ body{
 }
 nav{
     background-color: rgb(194, 231, 208);
-    color: black;
     padding-top:10px;
     
 }
 ul{
     display: flex;
     justify-content: space-around;
-    background-image: url("hurling3.jpeg");
+    background-image: url("hurling2.jpeg");
+    padding: .4rem;
+    margin: auto;
     
 }
 li{
@@ -27,15 +28,17 @@ a{
  
 }
 .header{
-    font-family:'Lucida Sans';
+    font-family: sans-serif;
     border-style: double;
     background-color:rgb(194, 231, 208) ;
     display: flex;
     justify-content: space-around;
     align-items:center;
+    color: #313131;
 }
 main{
     background-color:rgb(194, 231, 208);
+    color: #313131;
 }
 
  .section1 {
@@ -52,9 +55,13 @@ main{
   .section2 h2{
     display: flex;
     justify-content: center;
+    color: #313131;
+    font-family: sans-serif;
   }
 
   .section2 {
+    color: #313131;
+    font-family: sans-serif;
     font-size: 1.2rem;
     border-style: solid;
     margin-bottom: 10px;
