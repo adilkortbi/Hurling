@@ -10,6 +10,7 @@ nav{
     padding-top:10px;
     
 }
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -95,7 +96,10 @@ main{
     background-color:rgb(194, 231, 208);
   }
   .section3  {
-    margin: 10px;
+    margin: 20px;
+  }
+  .section3 ul{
+    background-image: url(hurling3.jpeg);
   }
 
   .section3 h2 {
@@ -157,5 +161,5 @@ main{
         padding: 1rem;
       }
     }
-    }
+    
   
