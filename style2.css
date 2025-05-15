@@ -10,15 +10,14 @@ h1{
     display:flex;
     justify-content: center;
     background-color: rgb(108, 175, 238);
-    color: rgb(0, 0, 0);
+    color:#313131 ;
     margin: 0px;
     padding: 20px;
+    border-radius: 20px;
+    font-family: sans-serif;
 
 }
-#header{
-    display: flex;
-    justify-content: space-around;
-}
+
 nav{
     background-color: rgb(194, 231, 208);
     color: black;
@@ -52,4 +51,43 @@ a{
     border-radius: 20px;
     padding: 0%;
     margin: .5rem;
+    color: #313131;
+    font-family: sans-serif;
+}
+footer{
+    background-color: #000000;
+    color: #ccc;
+    display: flex;
+    text-align: center;
+    padding: 10px 5px;
+}
+iframe{
+    margin: 10px;
+    
+}
+
+@media (max-width: 700px) {
+    
+    ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    li {
+        justify-content: center;
+    }
+
+    #bulk {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }
