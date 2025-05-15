@@ -39,3 +39,17 @@ a{
     color: aquamarine;
  
 }
+#bulk{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#bulk h3{
+    display:flex;
+    justify-content: center;
+    background-color:rgb(108, 175, 238) ;
+    border-radius: 20px;
+    padding: 0%;
+    margin: .5rem;
+}

@@ -1,5 +1,9 @@
+body{
+    background: linear-gradient( rgb(178, 233, 146),rgb(104, 179, 19));
+}
+
 #wrapper{
-         
+    background-image: url(Hurling3.jpeg);     
     padding:20px;  
     background-color: #e6e6e6;
     width: 80%;
@@ -21,20 +25,29 @@ input[type=text]{
     outline: none;
   }
   
-  h {
-    border: 1px solid #f1f1f1;
+  h1 {
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
   }
-  
+
+  #green-button{
+    display:flex;
+    justify-content: center;
+    
+  }
+
   .button {
-    background-color: #04AA6D;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
+    margin: 8px;
     cursor: pointer;
-    width: 60%;
+    background-color: #34ca4d;
+    color: white;
+    padding: 4px;
+
   }
+
   a{
     color: #000000;
     background-color:#ddd;
@@ -44,17 +57,22 @@ input[type=text]{
   }
   
   button {
-    background-color: #801fc0;
+    background-color: #34ca4d;
     color: white;
     padding: 4px 2px;
     margin-top: 4px;
     border-style: solid;
     cursor: pointer;
-    display:flex;
-    justify-content: center;
     }
 .form1{
     display: grid;
     grid-template-columns: 200px, 200px;
     grid-template-rows: 20px,20px,20px;
+    
+}
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
