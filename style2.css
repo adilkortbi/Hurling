@@ -19,22 +19,7 @@ h1{
 
 }
 
-nav{
-    background-color: rgb(194, 231, 208);
-    color: black;
-    
-    
-}
-ul{
-    display: flex;
-    justify-content: space-around;
-    background-image: url("hurling2.jpeg");
-}
-li{
-    display: flex;
-    flex-direction: start;
-    align-items: center; 
-}
+
 a{
     color: aquamarine;
  

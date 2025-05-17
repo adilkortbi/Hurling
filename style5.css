@@ -29,6 +29,17 @@
     text-align: center;
     opacity: 0.8;
 }
+li a{
+    text-decoration: none;
+    font-size: large;
+    padding: .8rem;
+}
+li a{
+    display: flex;
+    flex-direction: start;
+    align-items: center; 
+    color:rgb(194, 231, 208);
+}
 footer{
     display: flex;
     align-items: center;
@@ -36,14 +47,7 @@ footer{
     margin: 2%;
     background-color: rgba(194, 231, 208, 0.250) ;
 }
-footer a{
-color: rgb(194, 231, 208);
-font-size: x-large;
-background-image: url(hurling3.jpeg);
-border-radius: 4px;
-margin: auto;
-display: flex;
-}
+
 ul{
     list-style: none;
 }

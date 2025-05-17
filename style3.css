@@ -47,14 +47,6 @@ input[type=text]{
     padding: 4px;
 
   }
-
-  a{
-    color: #000000;
-    background-color:#ddd;
-    border-style:solid;
-    border-radius: 5px;
-    border-color:#ddd;
-  }
   
   button {
     background-color: #34ca4d;
