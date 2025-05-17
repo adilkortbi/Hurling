@@ -29,16 +29,15 @@
     text-align: center;
     opacity: 0.8;
 }
-li a{
+ a{
     text-decoration: none;
-    font-size: large;
-    padding: .8rem;
+ 
 }
-li a{
+ a{
     display: flex;
     flex-direction: start;
     align-items: center; 
-    color:rgb(194, 231, 208);
+    color:rgb(0, 161, 62);
 }
 footer{
     display: flex;
