@@ -1,0 +1,23 @@
+nav{
+    background-color: rgb(190, 255, 215);
+    color: black;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("hurling2.jpeg");
+}
+li a{
+    text-decoration: none;
+    font-size: large;
+    padding: .8rem;
+}
+li a{
+    display: flex;
+    flex-direction: start;
+    align-items: center; 
+    color:rgb(194, 231, 208);
+
+}

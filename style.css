@@ -1,165 +1,172 @@
 body{
-    height: 80%;
-    display: grid;
-    grid-template-columns:250px 500px ,1, 100px;
-    grid-template-rows:50px 100px 1700px 120px;
-
+  height: 80%;
+  display: grid;
+  grid-template-columns:250px 500px ,1, 100px;
+  grid-template-rows:50px 100px 1700px 120px;
+  
 }
 nav{
-    background-color: rgb(194, 231, 208);
-    padding-top:10px;
-    
+  background-color: rgb(194, 231, 208);
+  padding-top:10px;
+  
 }
 
 ul{
-    display: flex;
-    justify-content: space-around;
-    background-image: url("hurling2.jpeg");
-    padding: .4rem;
-    margin: auto;
-    
+  display: flex;
+  justify-content: space-around;
+  background-image: url("hurling2.jpeg");
+  padding: .4rem;
+  margin: auto;
+  
 }
 li{
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
 }
 a{
-    color: aquamarine;
- 
+  color: aquamarine;
+  
 }
 .header{
-    font-family: sans-serif;
-    border-style: double;
-    background-color:rgb(194, 231, 208) ;
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    color: #313131;
+  font-family: sans-serif;
+  border-style: double;
+  background-color:rgb(194, 231, 208) ;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  color: #313131;
 }
 main{
-    background-color:rgb(194, 231, 208);
-    color: #313131;
+  background-color:rgb(194, 231, 208);
+  color: #313131;
 }
 
- .section1 {
-    background: url('hurling2.jpeg') no-repeat center center/cover;
-    height: 700px;
-    color: rgb(255, 217, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2rem;
-  }
+.section1 {
+  background: url('hurling2.jpeg') no-repeat center center/cover;
+  height: 700px;
+  color: rgb(255, 217, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
 
-  .section2 h2{
-    display: flex;
-    justify-content: center;
-    color: #313131;
-    font-family: sans-serif;
-  }
+.section2 h2{
+  display: flex;
+  justify-content: center;
+  color: #313131;
+  font-family: sans-serif;
+}
 
-  .section2 {
-    color: #313131;
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    border-style: solid;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 5px;
-  }
+.section2 {
+  color: #313131;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  border-style: solid;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
 
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 17px;
-  }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 17px;
+}
 
-  .gallery img {
-    width: 300px;
-    height: 200px;
-    border-radius: 8px;
-    background-size: cover;
-    background-position: center;
-
-  }
-
-  .gallery img:hover {
-    transform: scale(1.1);
-  }
-  .gallery a{
-    border-style:none;
-    background-color:rgb(194, 231, 208);
-  }
-  .section3  {
-    margin: 20px;
-  }
-  .section3 ul{
-    background-image: url(hurling3.jpeg);
-  }
-
-  .section3 h2 {
-   display: flex;
-   justify-content: center;
-  }
-
-  footer {
-    background-color: #000000;
-    color: #ccc;
-    display: flex;
-    text-align: center;
-    padding: 10px 5px;
-  }
-
-  @media (max-width: 700px) {
-    {
-        display: block; 
-      }
-    
-      ul {
-        display:flex;
-        align-items: center;
-        gap: 10px;
-        padding: 10px;
-      }
-    
-      .header {
-        display: flex;
-        flex-direction:row;
-        text-align: center;
-      }
-    
-      .section1 {
-        height: 400px;
-        font-size: 1.5rem;
-        padding: 1rem;
-      }
-    
-      .section2{
-        padding: 1rem;
-        font-size: 1rem;
-        margin: 5px;
-      }
-      .section3 {
-        padding: 1rem;
-        font-size: 1rem;
-      }
-    
-      .gallery {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-      }
-
-      footer {
-        flex-direction: column;
-        text-align: center;
-        padding: 1rem;
-      }
-    }
-    
+.gallery img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
   
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+.section3  {
+  margin: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-image: url(hurling3.jpeg);
+}
+
+.section3 h2 {
+  display: flex;
+  justify-content: center;
+}
+
+table,
+th {
+  border: 2px solid #000;
+}
+td{background-color: rgba(123, 255, 244, 0.178);
+  font-family: sans-serif;
+  font-size:large;
+  border: 2px solid #000;
+  padding: 5px;
+  
+}
+footer {
+  background-color: #000000;
+  color: #ccc;
+  display: flex;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+@media (max-width: 700px) {
+  {
+    display: block; 
+  }
+  
+  ul {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+  }
+  
+  .section1 {
+    height: 400px;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .section2{
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 5px;
+  }
+  .section3 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
