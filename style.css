@@ -13,7 +13,6 @@ a{
 .header{
   font-family: sans-serif;
   border-style: double;
-  background-color:rgb(194, 231, 208) ;
   display: flex;
   justify-content: space-around;
   align-items:center;
