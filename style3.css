@@ -1,7 +1,6 @@
 body{
     background: linear-gradient( rgb(178, 233, 146),rgb(194, 231, 208));
 }
-
 #wrapper{
     background-image: url(Hurling3.jpeg);     
     padding:20px;  
@@ -13,9 +12,8 @@ body{
 input[type=text]{
     width: 80%;
     padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
+    margin: 15px 0 20px 0;
+    border-radius: 5px;
     background: #f1f1f1;
 
   }
@@ -29,6 +27,9 @@ input[type=text]{
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
+    border: 1px solid ;
+    margin: 40px 0px 40px 0px;
+    border-radius: 3px;
   }
 
   #green-button{
@@ -67,4 +68,8 @@ input[type=text]{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+#section1{
+  font-family: sans-serif;
+  
 }
