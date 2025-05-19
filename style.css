@@ -6,10 +6,6 @@ body{
   
 }
 
-a{
-  color: aquamarine;
-  
-}
 .header{
   font-family: sans-serif;
   border-style: double;
@@ -19,6 +15,7 @@ a{
   align-items:center;
   color: #313131;
 }
+
 main{
   background-color:rgb(194, 231, 208);
   color: #313131;
@@ -90,7 +87,7 @@ table,
 th {
   border: 2px solid #000;
 }
-td{background-color: rgba(123, 255, 244, 0.178);
+td{background-coor: rgba(123, 255, 244, 0.349);
   font-family: sans-serif;
   font-size:large;
   border: 2px solid #000;
