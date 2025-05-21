@@ -1,4 +1,4 @@
-body{ background-color: rgb(205, 239, 248);
+body{ background-color: rgb(203, 240, 250);
     border-radius: 0px;
     padding: 2.5px;
    
@@ -25,7 +25,7 @@ main{
     flex-direction: column;
 }
 
-h3{
+ h3{
     display:flex;
     justify-content: center;
     background-color:rgb(108, 175, 238) ;

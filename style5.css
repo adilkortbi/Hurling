@@ -1,20 +1,3 @@
-#header{
-    background-color: #ffffff;
-    color: rgb(194, 231, 208);
-    font-family: sans-serif;
-    text-align: center;
-}
-#bulk{
-    
-    padding: 5px;
-    margin: 5px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: sans-serif;
-    line-height: 1.2rem;
-    font-size: 1.1rem;
-    color: #000000;
-}
 .back-ground{
     background-image: url('hurling5rules.jpeg');
     background-size: contain;
@@ -51,7 +34,7 @@ ul{
     list-style: none;
 }
 @media (max-width: 1000px) {
-    #bulk{
+    main{
         padding: 5px;
         margin: 5px;
         border-radius: 12px;
